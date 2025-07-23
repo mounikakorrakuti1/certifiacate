@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ACE Registration Confirmation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5ff;
+    }
+
+    .container {
+      background-color: white;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 50px 60px;
+      border-radius: 25px;
+      position: relative;
+      box-shadow: 0 0 30px rgba(75, 0, 130, 0.15);
+      border: 10px double #4B0082;
+      outline: 5px solid #e0dbff;
+      overflow: hidden;
+    }
+
+    /* 🔵 Faint background watermark */
+    .container::before {
+      content: "";
+      background-image: url('ACE.jpeg'); /* 👈 Make sure ACE.jpeg is in the same folder */
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.05;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    h2, h4 {
+      text-align: center;
+      color: #4B0082;
+      margin: 5px 0;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: #4B0082;
+      margin: 20px 0;
+    }
+
+    .details-box {
+      background-color: #f7f7ff;
+      border: 2px dashed #4B0082;
+      padding: 20px 30px;
+      border-radius: 12px;
+      margin-top: 25px;
+    }
+
+    .details-box ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.9;
+      font-size: 15.5px;
+    }
+
+    .signature-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .signature {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .quote {
+      text-align: center;
+      font-style: italic;
+      color: #4B0082;
+      margin-top: 40px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h2>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE (A)</h2>
+      <h4>Department of Computer Science and Engineering</h4>
+      <h4>Association of Computer Engineers (ACE)</h4>
+
+      <hr>
+
+      <h2>ACE Registration Confirmation</h2>
+
+      <p>Dear <strong>________________________</strong>,</p>
+
+      <p>
+        We are excited to welcome you to the <strong>Association of Computer Engineers (ACE)</strong> under the
+        Department of Computer Science and Engineering at <strong>SRKR Engineering College</strong>.
+      </p>
+
+      <p>
+        This certificate confirms your successful registration and membership. You're now part of a vibrant
+        community that nurtures creativity, leadership, and tech excellence.
+      </p>
+
+      <div class="details-box">
+        <ul>
+          <li><strong>ACE Regd. No:</strong> ____________</li>
+          <li><strong>Name:</strong> ____________</li>
+          <li><strong>Phone Number:</strong> ____________</li>
+          <li><strong>Email:</strong> ____________</li>
+          <li><strong>Year of Study:</strong> ____________</li>
+          <li><strong>Gender:</strong> ____________</li>
+          <li><strong>Department:</strong> ____________</li>
+          <li><strong>Interests:</strong> ____________</li>
+          <li><strong>Goodies:</strong> ____________</li>
+          <li><strong>Payment Mode:</strong> ____________</li>
+        </ul>
+      </div>
+
+      <p style="margin-top: 20px;">
+        This document also acts as proof of your payment and ACE identity. Please keep it safe for future reference.
+      </p>
+
+      <div class="signature-section">
+        <div class="signature">
+          __________________________<br>
+          <strong>Head of CSE Department</strong>
+        </div>
+        <div class="signature">
+          __________________________<br>
+          <strong>Secretary, ACE</strong>
+        </div>
+      </div>
+
+      <div class="quote">
+        "Together, let’s create, collaborate, and celebrate innovation!"
+      </div>
+    </div>
+  </div>
+</body>
+</html>
